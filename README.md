@@ -5,7 +5,7 @@ The Curtain Compiler - Compiles Curtain Syntax into C, and then ASM using GCC. D
 The Current iteration is written in Java. But, the beta iteration will be utilizing bootstrapping.
 <br>
 <br>
-<h3> Program Structure <h3><br>
+<h3> Program Structure </h3><br>
 Arguments are verified, if valid, program continues, else throws reasonable error<br>
 reads each line, assembles it into string array<br>
 Parses each line, tokenizes it<br>
