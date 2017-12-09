@@ -1,0 +1,51 @@
+Main, "hello world":
+
+import "std" => std
+
+function main() => int {
+  std.println("Hello World")
+  
+  return 0
+}
+
+Iteration:
+import "std" => std
+
+function main() => int {
+  string[] array = { 0, 1, 2, 3, 4, 5 }
+  
+  int i = 0
+  iterate(array, i) {
+    std.println(array[i])
+  }
+  
+  i = 0
+  
+  iterate(40, i) {
+    std.println(i)
+  }
+  
+  return 0
+}
+
+Types and memory management:
+
+import "std" => std
+
+type object {
+  string value
+}
+
+function main() => int {
+  std.println("Hello World")
+  
+  ptr object obj = null
+  obj = mac(size(object))
+  std.println(madr(obj))
+  
+  obj.value = "foo"
+  
+  std.println(obj.value)
+  
+  return 0
+}
